@@ -5,7 +5,7 @@ proxy-groups:
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
-      interval: 720
+      interval: 360
     proxies:
       - "FALLBACK 🇮🇩 (ID)"
       - "FALLBACK 🇸🇬 (SG)"
