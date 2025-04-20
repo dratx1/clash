@@ -2,10 +2,6 @@ proxies:
 proxy-groups:
   - name: "Jk_S©DratVPN™"
     type: select
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 180
     proxies:
       - "FALLBACK 🇮🇩 (ID)"
       - "FALLBACK 🇸🇬 (SG)"
@@ -20,12 +16,16 @@ proxy-groups:
       - "XUTS"
       - "AKUN"
       - "DIRECT"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
   - name: "XUTS"
     type: url-test
     use:
       - "provide-xuts-id"
       - "provide-xuts-sg"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
   - name: "0P0K"
     type: url-test
@@ -38,6 +38,8 @@ proxy-groups:
       - "provide-0p0k2-id2"
       - "provide-0p0k2-sg"
       - "provide-0p0k2-sg2"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
   - name: "GAME"
     type: url-test
@@ -46,6 +48,8 @@ proxy-groups:
       - "provide-game-id2"
       - "provide-game-sg"
       - "provide-game-sg2"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
   - name: "SUSHIROLL"
     type: url-test
@@ -54,6 +58,8 @@ proxy-groups:
       - "provide-sushiroll-id2"
       - "provide-sushiroll-sg"
       - "provide-sushiroll-sg2"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
   - name: "VIDIO"
     type: url-test
@@ -62,6 +68,8 @@ proxy-groups:
       - "provide-vidio-id2"
       - "provide-vidio-sg"
       - "provide-vidio-sg2"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
   - name: "FALLBACK 🇮🇩 (ID)"
     type: fallback
@@ -77,6 +85,8 @@ proxy-groups:
       - "provide-0p0k1-id2"
       - "provide-0p0k2-id"
       - "provide-0p0k2-id2"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
   - name: "FALLBACK 🇸🇬 (SG)"
     type: fallback
@@ -92,6 +102,8 @@ proxy-groups:
       - "provide-0p0k1-sg2"
       - "provide-0p0k2-sg"
       - "provide-0p0k2-sg2"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
   - name: "FALLBACK RANDOM"
     type: fallback
@@ -118,6 +130,8 @@ proxy-groups:
       - "provide-0p0k2-id2"
       - "provide-0p0k2-sg"
       - "provide-0p0k2-sg2"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
   - name: "URL-TEST 🇮🇩 (ID)"
     type: url-test
@@ -133,6 +147,8 @@ proxy-groups:
       - "provide-0p0k2-id"
       - "provide-0p0k2-id2"
       - "provide-xuts-id"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
   - name: "URL-TEST 🇸🇬 (SG)"
     type: url-test
@@ -148,6 +164,8 @@ proxy-groups:
       - "provide-0p0k2-sg"
       - "provide-0p0k2-sg2"
       - "provide-xuts-sg"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
   - name: "URL-TEST RANDOM"
     type: url-test
@@ -174,11 +192,15 @@ proxy-groups:
       - "provide-0p0k2-sg2"
       - "provide-xuts-id"
       - "provide-xuts-sg"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
   - name: "AKUN"
     type: url-test
     use:
       - "provide"
+    url: http://www.gstatic.com/generate_204
+    interval: 180
 
 proxy-providers:
   "provide":
