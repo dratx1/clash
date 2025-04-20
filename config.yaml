@@ -18,7 +18,14 @@ proxy-groups:
       - "SUSHIROLL"
       - "VIDIO"
       - "XUTS"
+      - "XUTS"
+      - "AKUN"
       - "DIRECT"
+
+  - name: "AKUN"
+    type: url-test
+    use:
+      - "provide"
 
   - name: "XUTS"
     type: url-test
@@ -95,7 +102,6 @@ proxy-groups:
   - name: "FALLBACK RANDOM"
     type: fallback
     use:
-      - "provide"
       - "provide-xuts-id"
       - "provide-xuts-sg"
       - "provide-game-id"
@@ -152,7 +158,6 @@ proxy-groups:
   - name: "URL-TEST RANDOM"
     type: url-test
     use:
-      - "provide"
       - "provide-game-id"
       - "provide-game-id2"
       - "provide-game-sg"
