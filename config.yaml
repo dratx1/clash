@@ -209,139 +209,139 @@ proxy-providers:
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
-      interval: 360
+      interval: 3600
 
   "provide-xuts-id":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=ID&limit=20"
     path: ./assets/provide-xuts-id.yaml
-    interval: 361
+    interval: 3610
 
   "provide-xuts-sg":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=ID&limit=20"
     path: ./assets/provide-xuts-sg.yaml
-    interval: 362
+    interval: 3620
 
   "provide-game-id":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=web.poe.garena.com&wildcard=false&tls=true&country=ID&limit=20"
     path: ./assets/provide-game-id.yaml
-    interval: 363
+    interval: 3630
 
   "provide-game-id2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=false&vpn=vless&port=443&domain=web.poe.garena.com"
     path: ./assets/provide-game-id2.yaml
-    interval: 364
+    interval: 3640
 
   "provide-game-sg":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=web.poe.garena.com&wildcard=false&tls=true&country=SG&limit=20"
     path: ./assets/provide-game-sg.yaml
-    interval: 365
+    interval: 3650
 
   "provide-game-sg2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=false&vpn=vless&port=443&domain=web.poe.garena.com"
     path: ./assets/provide-game-sg2.yaml
-    interval: 366
+    interval: 3660
 
   "provide-sushiroll-id":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=104.21.69.223&wildcard=false&tls=true&country=ID&limit=20"
     path: ./assets/provide-sushiroll-id.yaml
-    interval: 367
+    interval: 3670
 
   "provide-sushiroll-id2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=false&vpn=vless&port=443&domain=104.21.69.223"
     path: ./assets/provide-sushiroll-id2.yaml
-    interval: 368
+    interval: 3680
 
   "provide-sushiroll-sg":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=104.21.69.223&wildcard=false&tls=true&country=SG&limit=20"
     path: ./assets/provide-sushiroll-sg.yaml
-    interval: 369
+    interval: 3690
 
   "provide-sushiroll-sg2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=false&vpn=vless&port=443&domain=104.21.69.223"
     path: ./assets/provide-sushiroll-sg2.yaml
-    interval: 370
+    interval: 3700
 
   "provide-vidio-id":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=quiz.vidio.com&wildcard=false&tls=true&country=ID&limit=20"
     path: ./assets/provide-vidio-id.yaml
-    interval: 371
+    interval: 3710
 
   "provide-vidio-id2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=false&vpn=vless&port=443&domain=quiz.vidio.com"
     path: ./assets/provide-vidio-id2.yaml
-    interval: 372
+    interval: 3720
 
   "provide-vidio-sg":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=quiz.vidio.com&wildcard=false&tls=true&country=SG&limit=20"
     path: ./assets/provide-vidio-sg.yaml
-    interval: 373
+    interval: 3730
 
   "provide-vidio-sg2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=false&vpn=vless&port=443&domain=quiz.vidio.com"
     path: ./assets/provide-vidio-sg2.yaml
-    interval: 374
+    interval: 3740
 
   "provide-0p0k1-id":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=api.ovo.id&wildcard=false&tls=true&country=ID&limit=20"
     path: ./assets/provide-0p0k1-id.yaml
-    interval: 375
+    interval: 3750
 
   "provide-0p0k1-id2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=false&vpn=vless&port=443&domain=api.ovo.id"
     path: ./assets/provide-0p0k1-id2.yaml
-    interval: 376
+    interval: 3760
 
   "provide-0p0k1-sg":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=api.ovo.id&wildcard=false&tls=true&country=SG&limit=20"
     path: ./assets/provide-0p0k1-sg.yaml
-    interval: 377
+    interval: 3770
 
   "provide-0p0k1-sg2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=false&vpn=vless&port=443&domain=api.ovo.id"
     path: ./assets/provide-0p0k1-sg2.yaml
-    interval: 378
+    interval: 3780
 
   "provide-0p0k2-id":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=staging.games.axis.co.id&wildcard=false&tls=true&country=ID&limit=20"
     path: ./assets/provide-0p0k2-id.yaml
-    interval: 379
+    interval: 3790
 
   "provide-0p0k2-id2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=false&vpn=vless&port=443&domain=staging.games.axis.co.id"
     path: ./assets/provide-0p0k2-id2.yaml
-    interval: 380
+    interval: 3800
 
   "provide-0p0k2-sg":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=staging.games.axis.co.id&wildcard=false&tls=true&country=SG&limit=20"
     path: ./assets/provide-0p0k2-sg.yaml
-    interval: 381
+    interval: 3810
 
   "provide-0p0k2-sg2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=false&vpn=vless&port=443&domain=staging.games.axis.co.id"
     path: ./assets/provide-0p0k2-sg2.yaml
-    interval: 382
+    interval: 3820
 
 rules:
   - MATCH,Jk_S©DratVPN™
