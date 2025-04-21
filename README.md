@@ -92,5 +92,3 @@ For any questions or suggestions, feel free to open an issue.
 Made with ❤️ by [dratx1](https://github.com/dratx1).  
 Follow me for more exciting projects! 🚀
 ```
-
----
