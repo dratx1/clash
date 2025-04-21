@@ -1,8 +1,3 @@
-Berikut adalah template README.md keren dan profesional untuk repository Clash Anda:
-
----
-
-```markdown
 # ⚡ Clash Configuration Repository
 
 ![Stars](https://img.shields.io/github/stars/dratx1/clash?style=flat-square)
