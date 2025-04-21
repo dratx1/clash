@@ -87,12 +87,6 @@ For any questions or suggestions, feel free to open an issue.
 
 ---
 
-## 📷 Screenshots (Optional)
-
-Add screenshots or sample configuration setups here to showcase the functionality.
-
----
-
 ## 🧑‍💻 Author
 
 Made with ❤️ by [dratx1](https://github.com/dratx1).  
