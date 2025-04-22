@@ -3,7 +3,7 @@ proxy-groups:
   - name: "DratVPN"
     type: select
     proxies:
-      - "0P0KxUTS"
+      - "CORE"
       - "0P0K"
       - "GAME"
       - "SUSHIROLL"
@@ -13,7 +13,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 360
 
-  - name: "0P0KxUTS"
+  - name: "CORE"
     type: url-test
     use:
       - "provider-0p0k1-id"
