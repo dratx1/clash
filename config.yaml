@@ -6,7 +6,7 @@ proxy-groups:
       - "CORE"
       - "0P0K"
       - "GAME"
-      - "SUSHIROLL"
+      - "SUSHI"
       - "VIDIO"
       - "XUTS"
       - "DIRECT"
@@ -53,7 +53,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 3600
 
-  - name: "SUSHIROLL"
+  - name: "SUSHI"
     type: fallback
     use:
       - "provider-sushiroll-id"
