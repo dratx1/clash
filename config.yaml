@@ -10,7 +10,7 @@ proxy-groups:
       - "XUTS"
       - "DIRECT"
     url: http://www.gstatic.com/generate_204
-    interval: 360
+    interval: 3600
 
   - name: "0P0K"
     type: fallback
@@ -24,7 +24,7 @@ proxy-groups:
       - "provider-0p0k2-sg"
       - "provider-0p0k2-sg2"
     url: http://www.gstatic.com/generate_204
-    interval: 360
+    interval: 3600
 
   - name: "GAME"
     type: fallback
@@ -34,7 +34,7 @@ proxy-groups:
       - "provider-game-sg"
       - "provider-game-sg2"
     url: http://www.gstatic.com/generate_204
-    interval: 360
+    interval: 3600
 
   - name: "SUSHIROLL"
     type: fallback
@@ -44,7 +44,7 @@ proxy-groups:
       - "provider-sushiroll-sg"
       - "provider-sushiroll-sg2"
     url: http://www.gstatic.com/generate_204
-    interval: 360
+    interval: 3600
 
   - name: "VIDIO"
     type: fallback
@@ -54,7 +54,7 @@ proxy-groups:
       - "provider-vidio-sg"
       - "provider-vidio-sg2"
     url: http://www.gstatic.com/generate_204
-    interval: 360
+    interval: 3600
 
   - name: "XUTS"
     type: fallback
@@ -62,7 +62,7 @@ proxy-groups:
       - "provider-xuts-id"
       - "provider-xuts-sg"
     url: http://www.gstatic.com/generate_204
-    interval: 360
+    interval: 3600
 
 proxy-providers:
   "provider-0p0k1-id":
