@@ -11,7 +11,7 @@ proxy-groups:
       - "XUTS"
       - "DIRECT"
     url: http://www.gstatic.com/generate_204
-    interval: 3600
+    interval: 360
 
   - name: "0P0KxUTS"
     type: url-test
