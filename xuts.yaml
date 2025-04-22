@@ -3,9 +3,18 @@ proxy-groups:
   - name: "DratVPN"
     type: select
     proxies:
+      - "XUTS"
       - "XUTS-ID"
       - "XUTS-SG"
       - "DIRECT"
+
+  - name: "XUTS"
+    type: url-test
+    use:
+      - "provider-xuts-id"
+      - "provider-xuts-sg"
+    url: http://www.gstatic.com/generate_204
+    interval: 360
 
   - name: "XUTS-ID"
     type: fallback
