@@ -24,8 +24,6 @@ proxy-groups:
     use:
       - "provide-xuts-id"
       - "provide-xuts-sg"
-    url: http://www.gstatic.com/generate_204
-    interval: 310
 
   - name: "0P0K"
     type: url-test
@@ -38,8 +36,6 @@ proxy-groups:
       - "provide-0p0k2-id2"
       - "provide-0p0k2-sg"
       - "provide-0p0k2-sg2"
-    url: http://www.gstatic.com/generate_204
-    interval: 320
 
   - name: "GAME"
     type: url-test
@@ -48,8 +44,6 @@ proxy-groups:
       - "provide-game-id2"
       - "provide-game-sg"
       - "provide-game-sg2"
-    url: http://www.gstatic.com/generate_204
-    interval: 330
 
   - name: "SUSHIROLL"
     type: url-test
@@ -58,8 +52,6 @@ proxy-groups:
       - "provide-sushiroll-id2"
       - "provide-sushiroll-sg"
       - "provide-sushiroll-sg2"
-    url: http://www.gstatic.com/generate_204
-    interval: 340
 
   - name: "VIDIO"
     type: url-test
@@ -68,8 +60,6 @@ proxy-groups:
       - "provide-vidio-id2"
       - "provide-vidio-sg"
       - "provide-vidio-sg2"
-    url: http://www.gstatic.com/generate_204
-    interval: 350
 
   - name: "FALLBACK 🇮🇩 (ID)"
     type: fallback
@@ -85,8 +75,6 @@ proxy-groups:
       - "provide-0p0k1-id2"
       - "provide-0p0k2-id"
       - "provide-0p0k2-id2"
-    url: http://www.gstatic.com/generate_204
-    interval: 360
 
   - name: "FALLBACK 🇸🇬 (SG)"
     type: fallback
@@ -102,8 +90,6 @@ proxy-groups:
       - "provide-0p0k1-sg2"
       - "provide-0p0k2-sg"
       - "provide-0p0k2-sg2"
-    url: http://www.gstatic.com/generate_204
-    interval: 370
 
   - name: "FALLBACK RANDOM"
     type: fallback
@@ -130,8 +116,6 @@ proxy-groups:
       - "provide-0p0k2-id2"
       - "provide-0p0k2-sg"
       - "provide-0p0k2-sg2"
-    url: http://www.gstatic.com/generate_204
-    interval: 380
 
   - name: "URL-TEST 🇮🇩 (ID)"
     type: url-test
@@ -147,8 +131,6 @@ proxy-groups:
       - "provide-0p0k2-id"
       - "provide-0p0k2-id2"
       - "provide-xuts-id"
-    url: http://www.gstatic.com/generate_204
-    interval: 390
 
   - name: "URL-TEST 🇸🇬 (SG)"
     type: url-test
@@ -164,8 +146,6 @@ proxy-groups:
       - "provide-0p0k2-sg"
       - "provide-0p0k2-sg2"
       - "provide-xuts-sg"
-    url: http://www.gstatic.com/generate_204
-    interval: 400
 
   - name: "URL-TEST RANDOM"
     type: url-test
@@ -192,15 +172,11 @@ proxy-groups:
       - "provide-0p0k2-sg2"
       - "provide-xuts-id"
       - "provide-xuts-sg"
-    url: http://www.gstatic.com/generate_204
-    interval: 410
 
   - name: "AKUN"
     type: url-test
     use:
       - "provide"
-    url: http://www.gstatic.com/generate_204
-    interval: 420
 
 proxy-providers:
   "provide":
