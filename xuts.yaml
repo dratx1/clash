@@ -1,6 +1,6 @@
 proxies:
 proxy-groups:
-  - name: "MainVPN"
+  - name: "DratVPN"
     type: select
     proxies:
       - "FALLBACK-XUTS-ID"
@@ -37,4 +37,4 @@ proxy-providers:
     interval: 10800
 
 rules:
-  - MATCH,MainVPN
+  - MATCH,DratVPN
