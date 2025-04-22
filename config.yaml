@@ -3,12 +3,29 @@ proxy-groups:
   - name: "DratVPN"
     type: select
     proxies:
+      - "0P0KxUTS"
       - "0P0K"
       - "GAME"
       - "SUSHIROLL"
       - "VIDIO"
       - "XUTS"
       - "DIRECT"
+    url: http://www.gstatic.com/generate_204
+    interval: 3600
+
+  - name: "0P0KxUTS"
+    type: url-test
+    use:
+      - "provider-0p0k1-id"
+      - "provider-0p0k1-id2"
+      - "provider-0p0k2-id"
+      - "provider-0p0k2-id2"
+      - "provider-0p0k1-sg"
+      - "provider-0p0k1-sg2"
+      - "provider-0p0k2-sg"
+      - "provider-0p0k2-sg2"
+      - "provider-xuts-id"
+      - "provider-xuts-sg"
     url: http://www.gstatic.com/generate_204
     interval: 3600
 
