@@ -49,16 +49,16 @@ proxy-groups:
   - name: "URL-TEST 🇮🇩 (ID)"
     type: url-test
     use:
+      - "provide-0p0k1-id"
+      - "provide-0p0k1-id2"
+      - "provide-0p0k2-id"
+      - "provide-0p0k2-id2"
       - "provide-game-id"
       - "provide-game-id2"
       - "provide-sushiroll-id"
       - "provide-sushiroll-id2"
       - "provide-vidio-id"
       - "provide-vidio-id2"
-      - "provide-0p0k1-id"
-      - "provide-0p0k1-id2"
-      - "provide-0p0k2-id"
-      - "provide-0p0k2-id2"
       - "provide-xuts-id"
     url: http://www.gstatic.com/generate_204
     interval: 340
@@ -66,16 +66,16 @@ proxy-groups:
   - name: "URL-TEST 🇸🇬 (SG)"
     type: url-test
     use:
+      - "provide-0p0k1-sg"
+      - "provide-0p0k1-sg2"
+      - "provide-0p0k2-sg"
+      - "provide-0p0k2-sg2"
       - "provide-game-sg"
       - "provide-game-sg2"
       - "provide-sushiroll-sg"
       - "provide-sushiroll-sg2"
       - "provide-vidio-sg"
       - "provide-vidio-sg2"
-      - "provide-0p0k1-sg"
-      - "provide-0p0k1-sg2"
-      - "provide-0p0k2-sg"
-      - "provide-0p0k2-sg2"
       - "provide-xuts-sg"
     url: http://www.gstatic.com/generate_204
     interval: 350
