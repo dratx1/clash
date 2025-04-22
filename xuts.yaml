@@ -1,0 +1,40 @@
+proxies:
+proxy-groups:
+  - name: "MainVPN"
+    type: select
+    proxies:
+      - "FALLBACK-XUTS-ID"
+      - "FALLBACK-XUTS-SG"
+      - "DIRECT"
+    url: http://www.gstatic.com/generate_204
+    interval: 360
+
+  - name: "FALLBACK-XUTS-ID"
+    type: fallback
+    use:
+      - "provider-xuts-id"
+    url: http://www.gstatic.com/generate_204
+    interval: 360
+
+  - name: "FALLBACK-XUTS-SG"
+    type: fallback
+    use:
+      - "provider-xuts-sg"
+    url: http://www.gstatic.com/generate_204
+    interval: 360
+
+proxy-providers:
+  "provider-xuts-id":
+    type: http
+    url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=ID&limit=20"
+    path: ./assets/provider-xuts-id.yaml
+    interval: 10800
+
+  "provider-xuts-sg":
+    type: http
+    url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=SG&limit=20"
+    path: ./assets/provider-xuts-sg.yaml
+    interval: 10800
+
+rules:
+  - MATCH,MainVPN
