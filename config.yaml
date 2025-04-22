@@ -104,7 +104,7 @@ proxy-providers:
 
   "provide-xuts-sg":
     type: http
-    url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=ID&limit=20"
+    url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=SG&limit=20"
     path: ./assets/provide-xuts-sg.yaml
     interval: 3030
 
