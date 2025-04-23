@@ -10,8 +10,10 @@ proxy-groups:
       - "VIDIO"
       - "XUTS"
       - "DIRECT"
-    url: http://www.gstatic.com/generate_204
-    interval: 120
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
 
   - name: "CORE"
     type: url-test
@@ -26,8 +28,10 @@ proxy-groups:
       - "provider-0p0k1-sg2"
       - "provider-0p0k2-sg"
       - "provider-0p0k2-sg2"
-    url: http://www.gstatic.com/generate_204
-    interval: 180
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
 
   - name: "GAME"
     type: fallback
@@ -36,8 +40,10 @@ proxy-groups:
       - "provider-game-id2"
       - "provider-game-sg"
       - "provider-game-sg2"
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
 
   - name: "SUSHI"
     type: fallback
@@ -46,8 +52,10 @@ proxy-groups:
       - "provider-sushiroll-id2"
       - "provider-sushiroll-sg"
       - "provider-sushiroll-sg2"
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
 
   - name: "VIDIO"
     type: fallback
@@ -56,16 +64,20 @@ proxy-groups:
       - "provider-vidio-id2"
       - "provider-vidio-sg"
       - "provider-vidio-sg2"
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
 
   - name: "XUTS"
     type: fallback
     use:
       - "provider-xuts-id"
       - "provider-xuts-sg"
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
 
   - name: "0P0K"
     type: fallback
@@ -78,8 +90,10 @@ proxy-groups:
       - "provider-0p0k1-sg2"
       - "provider-0p0k2-sg"
       - "provider-0p0k2-sg2"
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
 
 proxy-providers:
   "provider-0p0k1-id":
