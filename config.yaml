@@ -89,8 +89,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-0p0k1-id2":
     type: http
@@ -99,8 +99,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-0p0k1-sg":
     type: http
@@ -109,8 +109,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-0p0k1-sg2":
     type: http
@@ -119,8 +119,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-0p0k2-id":
     type: http
@@ -129,18 +129,17 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-0p0k2-id2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=false&vpn=vless&port=443&domain=staging.games.axis.co.id"
     path: ./assets/provider-0p0k2-id2.yaml
-    interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-0p0k2-sg":
     type: http
@@ -149,8 +148,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-0p0k2-sg2":
     type: http
@@ -159,8 +158,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-game-id":
     type: http
@@ -169,8 +168,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-game-id2":
     type: http
@@ -179,8 +178,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-game-sg":
     type: http
@@ -189,8 +188,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-game-sg2":
     type: http
@@ -199,8 +198,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-sushiroll-id":
     type: http
@@ -209,8 +208,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-sushiroll-id2":
     type: http
@@ -219,8 +218,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-sushiroll-sg":
     type: http
@@ -229,8 +228,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-sushiroll-sg2":
     type: http
@@ -239,8 +238,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-vidio-id":
     type: http
@@ -249,8 +248,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-vidio-id2":
     type: http
@@ -259,8 +258,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-vidio-sg":
     type: http
@@ -269,8 +268,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-vidio-sg2":
     type: http
@@ -279,8 +278,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-xuts-id":
     type: http
@@ -289,8 +288,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
   "provider-xuts-sg":
     type: http
@@ -299,8 +298,8 @@ proxy-providers:
     interval: 10800
     health-check:
       enable: true
-      interval: 300
       url: http://www.gstatic.com/generate_204
+      interval: 300
 
 rules:
   - MATCH,DratVPN
