@@ -15,6 +15,7 @@ proxy-groups:
     type: url-test
     use:
       - "provider-xuts-id"
+      - "provider-xuts-my"
       - "provider-xuts-sg"
       - "provider-0p0k1-id"
       - "provider-0p0k1-id2"
@@ -69,6 +70,7 @@ proxy-groups:
     type: fallback
     use:
       - "provider-xuts-id"
+      - "provider-xuts-my"
       - "provider-xuts-sg"
     health-check:
       enable: true
@@ -295,6 +297,16 @@ proxy-providers:
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=ID&limit=20"
     path: ./assets/provider-xuts-id.yaml
+    interval: 10800
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  "provider-xuts-my":
+    type: http
+    url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=MY&limit=20"
+    path: ./assets/provider-xuts-my.yaml
     interval: 10800
     health-check:
       enable: true
