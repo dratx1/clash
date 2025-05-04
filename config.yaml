@@ -95,7 +95,7 @@ proxy-groups:
       interval: 120
 
   - name: "ID-MY"
-    type: fallback
+    type: url-test
     use:
       - "provider-xuts-id"
       - "provider-xuts-my"
