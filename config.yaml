@@ -9,6 +9,7 @@ proxy-groups:
       - "SUSHI"
       - "VIDIO"
       - "XUTS"
+      - "ID-MY"
       - "DIRECT"
 
   - name: "CORE"
@@ -88,6 +89,16 @@ proxy-groups:
       - "provider-0p0k1-sg2"
       - "provider-0p0k2-sg"
       - "provider-0p0k2-sg2"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  - name: "ID-MY"
+    type: fallback
+    use:
+      - "provider-xuts-id"
+      - "provider-xuts-my"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
