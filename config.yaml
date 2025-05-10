@@ -137,13 +137,14 @@ proxy-groups:
 proxy-providers:
   "provider-drt":
     type: http
-    url: https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/drt.yaml"
+    url: https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/drt.yaml
     path: ./assets/provider-drt.yaml
     interval: 10800
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 120
+
   "provider-0p0k1-id":
     type: http
     url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=api.ovo.id&wildcard=false&tls=true&country=ID&limit=20"
