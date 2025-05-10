@@ -137,7 +137,7 @@ proxy-groups:
 proxy-providers:
   "provider-drt":
     type: http
-    url: https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/drt.yaml
+    url: "https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/drt.yaml"
     path: ./assets/provider-drt.yaml
     interval: 10800
     health-check:
