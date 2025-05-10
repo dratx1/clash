@@ -1,0 +1,15 @@
+- name: Digitalocean 🇸🇬
+  type: vless
+  server: ava.game.naver.com
+  port: 443
+  uuid: 5de2cbf5-9842-49e1-99b5-1de307e93dcd
+  cipher: none
+  skip-cert-verify: true
+  servername: ava.game.naver.com.violetvpn.biz.id
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sg-do
+    headers:
+      Host: ava.game.naver.com.violetvpn.biz.id
+  udp: true
