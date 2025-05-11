@@ -147,7 +147,7 @@ proxy-providers:
 
   "provider-0p0k1-id":
     type: http
-    url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=api.ovo.id&wildcard=false&tls=true&country=ID&limit=20"
+    url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=api.ovo.id&wildcard=false&tls=true&country=ID&limit=20"
     path: ./assets/provider-0p0k1-id.yaml
     interval: 10800
     health-check:
@@ -167,7 +167,7 @@ proxy-providers:
 
   "provider-0p0k1-sg":
     type: http
-    url: "https://sub.bansos.biz.id/sub/v2ray?type=vless&bug=api.ovo.id&wildcard=false&tls=true&country=SG&limit=20"
+    url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=api.ovo.id&wildcard=false&tls=true&country=SG&limit=20"
     path: ./assets/provider-0p0k1-sg.yaml
     interval: 10800
     health-check:
