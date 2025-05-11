@@ -138,7 +138,7 @@ proxy-providers:
   "provider-drt":
     type: http
     #url: "https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/drt.yaml"
-    url: "https://prod-test.jdevcloud.com/api/vless?cc=id&cdn=true&tls=true&bug=bug.com&limit=20&format=raw&domain=worker.my.id"
+    url: "https://violetvpn.biz.id/sub/vless/?type=wildcard&bug=ava.game.naver.com"
     path: ./assets/provider-drt.yaml
     interval: 10800
     health-check:
