@@ -19,6 +19,7 @@ proxy-groups:
     type: url-test
     use:
       - "provider-drt"
+      - "provider-xuts"
       - "provider-xuts-id"
       - "provider-xuts-my"
       - "provider-xuts-sg"
@@ -74,6 +75,7 @@ proxy-groups:
   - name: "XUTS"
     type: fallback
     use:
+      - "provider-xuts"
       - "provider-xuts-id"
       - "provider-xuts-my"
       - "provider-xuts-sg"
@@ -137,8 +139,7 @@ proxy-groups:
 proxy-providers:
   "provider-drt":
     type: http
-    #url: "https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/drt.yaml"
-    url: "https://violetvpn.biz.id/sub/vless/?type=wildcard&bug=ava.game.naver.com"
+    url: "https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/drt.yaml"
     path: ./assets/provider-drt.yaml
     interval: 10800
     health-check:
@@ -339,6 +340,16 @@ proxy-providers:
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=false&vpn=vless&port=443&domain=quiz.vidio.com"
     path: ./assets/provider-vidio-sg2.yaml
+    interval: 10800
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  "provider-xuts":
+    type: http
+    url: "https://violetvpn.biz.id/sub/vless/?type=wildcard&bug=ava.game.naver.com"
+    path: ./assets/provider-xuts.yaml
     interval: 10800
     health-check:
       enable: true
