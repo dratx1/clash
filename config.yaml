@@ -18,7 +18,7 @@ proxy-groups:
   - name: "CORE"
     type: url-test
     use:
-      - "provider-drt"
+      #- "provider-drt"
       - "provider-xuts"
       - "provider-xuts-id"
       - "provider-xuts-my"
