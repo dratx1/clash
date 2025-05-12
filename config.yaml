@@ -101,7 +101,7 @@ proxy-groups:
       interval: 120
 
   - name: "DRT"
-    type: url-test
+    type: fallback
     use:
       - "provider-drt"
     health-check:
@@ -110,7 +110,7 @@ proxy-groups:
       interval: 120
 
   - name: "ID"
-    type: url-test
+    type: fallback
     use:
       - "provider-xuts-id"
     health-check:
@@ -119,7 +119,7 @@ proxy-groups:
       interval: 120
 
   - name: "MY"
-    type: url-test
+    type: fallback
     use:
       - "provider-xuts-my"
     health-check:
@@ -128,7 +128,7 @@ proxy-groups:
       interval: 120
 
   - name: "SG"
-    type: url-test
+    type: fallback
     use:
       - "provider-xuts-sg"
     health-check:
