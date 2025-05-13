@@ -5,7 +5,6 @@ proxy-groups:
     proxies:
       - "BEST-PING"
       - "FALLBACK"
-      #- "DRT"
       - "ID"
       - "MY"
       - "SG"
@@ -30,15 +29,6 @@ proxy-groups:
       - "provider-xuts-id"
       - "provider-xuts-my"
       - "provider-xuts-sg"
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 120
-
-  #- name: "DRT"
-    type: fallback
-    use:
-      - "provider-drt"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -73,16 +63,6 @@ proxy-groups:
 
 ##############################################
 proxy-providers:
-  "provider-drt":
-    type: http
-    url: "https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/drt.yaml"
-    path: ./assets/provider-drt.yaml
-    interval: 10800
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 120
-
   "provider-xuts":
     type: http
     url: "https://violetvpn.biz.id/sub/vless/?type=wildcard&bug=ava.game.naver.com"
