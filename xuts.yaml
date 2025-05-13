@@ -1,0 +1,124 @@
+proxies:
+proxy-groups:
+  - name: "DratVPN"
+    type: select
+    proxies:
+      - "BEST-PING"
+      - "FALLBACK"
+      #- "DRT"
+      - "ID"
+      - "MY"
+      - "SG"
+      - "DIRECT"
+
+  - name: "BEST-PING"
+    type: url-test
+    use:
+      - "provider-xuts"
+      - "provider-xuts-id"
+      - "provider-xuts-my"
+      - "provider-xuts-sg"
+
+  - name: "FALLBACK"
+    type: fallback
+    use:
+      - "provider-xuts"
+      - "provider-xuts-id"
+      - "provider-xuts-my"
+      - "provider-xuts-sg"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  #- name: "DRT"
+    type: fallback
+    use:
+      - "provider-drt"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  - name: "ID"
+    type: fallback
+    use:
+      - "provider-xuts-id"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  - name: "MY"
+    type: fallback
+    use:
+      - "provider-xuts-my"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  - name: "SG"
+    type: fallback
+    use:
+      - "provider-xuts-sg"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+##############################################
+proxy-providers:
+  "provider-drt":
+    type: http
+    url: "https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/drt.yaml"
+    path: ./assets/provider-drt.yaml
+    interval: 10800
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  "provider-xuts":
+    type: http
+    url: "https://violetvpn.biz.id/sub/vless/?type=wildcard&bug=ava.game.naver.com"
+    path: ./assets/provider-xuts.yaml
+    interval: 10800
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  "provider-xuts-id":
+    type: http
+    url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=ID&limit=20"
+    path: ./assets/provider-xuts-id.yaml
+    interval: 10800
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  "provider-xuts-my":
+    type: http
+    url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=MY&limit=20"
+    path: ./assets/provider-xuts-my.yaml
+    interval: 10800
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  "provider-xuts-sg":
+    type: http
+    url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=SG&limit=20"
+    path: ./assets/provider-xuts-sg.yaml
+    interval: 10800
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+##############################################
+rules:
+  - MATCH,DratVPN
