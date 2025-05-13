@@ -73,7 +73,7 @@ proxy-groups:
 
 ##############################################
 proxy-providers:
-  #"provider-drt":
+  "provider-drt":
     type: http
     url: "https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/drt.yaml"
     path: ./assets/provider-drt.yaml
