@@ -18,6 +18,10 @@ proxy-groups:
       - "provider-xuts-id"
       - "provider-xuts-my"
       - "provider-xuts-sg"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
 
   - name: "FALLBACK"
     type: fallback
