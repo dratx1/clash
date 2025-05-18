@@ -417,7 +417,7 @@ rule-providers:
     interval: 28800
 
 rules:
-  - RULE-SET,adaway,ADS
-  - RULE-SET,abpindo,ADS
+  #- RULE-SET,adaway,ADS
+  #- RULE-SET,abpindo,ADS
   - RULE-SET,oisd_big,ADS
   - MATCH,DratVPN
