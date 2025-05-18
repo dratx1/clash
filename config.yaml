@@ -223,6 +223,12 @@ proxy-groups:
       - "SG"
       - "DIRECT"
 
+  - name: "ADS"
+    type: select
+    proxies:
+      - "DratVPN"
+      - "REJECT"
+
   - name: "CORE"
     type: url-test
     use:
@@ -596,5 +602,22 @@ proxy-providers:
       interval: 120
 
 ##############################################
+rule-providers:
+  "oisd_big":
+    type: http
+    behavior: classical
+    path: "./assets/rule_provider/oisd_big.yaml"
+    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/oisd_big.yaml
+    interval: 28800
+
+  "adaway":
+    type: http
+    behavior: classical
+    path: "./assets/rule_provider/adaway.yaml"
+    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/adaway.yaml
+    interval: 28800
+
 rules:
+  - RULE-SET,oisd_big,ADS
+  - RULE-SET,adaway,ADS
   - MATCH,DratVPN
