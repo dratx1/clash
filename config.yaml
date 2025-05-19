@@ -394,7 +394,7 @@ proxy-providers:
       interval: 120
 
 ##############################################
-#rule-providers:
+rule-providers:
 #  "adaway":
 #    type: http
 #    behavior: classical
