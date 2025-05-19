@@ -394,19 +394,26 @@ proxy-providers:
       interval: 120
 
 ##############################################
-rule-providers:
-  "adaway":
-    type: http
-    behavior: classical
-    path: "./assets/rule_provider/adaway.yaml"
-    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/adaway.yaml
-    interval: 28800
+#rule-providers:
+#  "adaway":
+#    type: http
+#    behavior: classical
+#    path: "./assets/rule_provider/adaway.yaml"
+#    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/adaway.yaml
+#    interval: 28800
 
-  "abpindo":
+#  "abpindo":
+#    type: http
+#    behavior: classical
+#    path: "./assets/rule_provider/abpindo.yaml"
+#    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/abpindo.yaml
+#    interval: 28800
+
+  "adblock":
     type: http
     behavior: classical
-    path: "./assets/rule_provider/abpindo.yaml"
-    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/abpindo.yaml
+    path: "./assets/rule_provider/adblock.yaml"
+    url: https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/adblock.yaml
     interval: 28800
 
   "oisd_big":
@@ -417,7 +424,8 @@ rule-providers:
     interval: 28800
 
 rules:
-  - RULE-SET,adaway,ADS
-  - RULE-SET,abpindo,ADS
+  #- RULE-SET,adaway,ADS
+  #- RULE-SET,abpindo,ADS
+  - RULE-SET,adblock,ADS
   - RULE-SET,oisd_big,ADS
   - MATCH,DratVPN
