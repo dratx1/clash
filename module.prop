@@ -1,0 +1,6 @@
+id=ClashForMagisk
+name=Clash for Magisk
+version=v3.1.0
+versionCode=20240113
+author=Jk_S © DratVPN™
+description= Use iptables to support Clash's transparent proxy.
