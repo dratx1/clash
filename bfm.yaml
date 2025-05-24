@@ -355,7 +355,7 @@ proxy-providers:
   "provider-drt":
     type: http
     url: "https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/drt.yaml"
-    path: ./assets/provider-drt.yaml
+    path: ./provide/provider-drt.yaml
     interval: 10800
     health-check:
       enable: true
@@ -365,7 +365,7 @@ proxy-providers:
   "provider-0p0k1-id":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=api.ovo.id&wildcard=false&tls=true&country=ID&limit=20"
-    path: ./assets/provider-0p0k1-id.yaml
+    path: ./provide/provider-0p0k1-id.yaml
     interval: 10800
     health-check:
       enable: true
@@ -375,7 +375,7 @@ proxy-providers:
   "provider-0p0k1-id2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=false&vpn=vless&port=443&domain=api.ovo.id"
-    path: ./assets/provider-0p0k1-id2.yaml
+    path: ./provide/provider-0p0k1-id2.yaml
     interval: 10800
     health-check:
       enable: true
@@ -385,7 +385,7 @@ proxy-providers:
   "provider-0p0k1-sg":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=api.ovo.id&wildcard=false&tls=true&country=SG&limit=20"
-    path: ./assets/provider-0p0k1-sg.yaml
+    path: ./provide/provider-0p0k1-sg.yaml
     interval: 10800
     health-check:
       enable: true
@@ -395,7 +395,7 @@ proxy-providers:
   "provider-0p0k1-sg2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=false&vpn=vless&port=443&domain=api.ovo.id"
-    path: ./assets/provider-0p0k1-sg2.yaml
+    path: ./provide/provider-0p0k1-sg2.yaml
     interval: 10800
     health-check:
       enable: true
@@ -405,7 +405,7 @@ proxy-providers:
   "provider-0p0k2-id":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=staging.games.axis.co.id&wildcard=false&tls=true&country=ID&limit=20"
-    path: ./assets/provider-0p0k2-id.yaml
+    path: ./provide/provider-0p0k2-id.yaml
     interval: 10800
     health-check:
       enable: true
@@ -415,7 +415,7 @@ proxy-providers:
   "provider-0p0k2-id2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=false&vpn=vless&port=443&domain=staging.games.axis.co.id"
-    path: ./assets/provider-0p0k2-id2.yaml
+    path: ./provide/provider-0p0k2-id2.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -424,7 +424,7 @@ proxy-providers:
   "provider-0p0k2-sg":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=staging.games.axis.co.id&wildcard=false&tls=true&country=SG&limit=20"
-    path: ./assets/provider-0p0k2-sg.yaml
+    path: ./provide/provider-0p0k2-sg.yaml
     interval: 10800
     health-check:
       enable: true
@@ -434,7 +434,7 @@ proxy-providers:
   "provider-0p0k2-sg2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=false&vpn=vless&port=443&domain=staging.games.axis.co.id"
-    path: ./assets/provider-0p0k2-sg2.yaml
+    path: ./provide/provider-0p0k2-sg2.yaml
     interval: 10800
     health-check:
       enable: true
@@ -444,7 +444,7 @@ proxy-providers:
   "provider-game-id":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=web.poe.garena.com&wildcard=false&tls=true&country=ID&limit=20"
-    path: ./assets/provider-game-id.yaml
+    path: ./provide/provider-game-id.yaml
     interval: 10800
     health-check:
       enable: true
@@ -454,7 +454,7 @@ proxy-providers:
   "provider-game-id2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=false&vpn=vless&port=443&domain=web.poe.garena.com"
-    path: ./assets/provider-game-id2.yaml
+    path: ./provide/provider-game-id2.yaml
     interval: 10800
     health-check:
       enable: true
@@ -464,7 +464,7 @@ proxy-providers:
   "provider-game-sg":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=web.poe.garena.com&wildcard=false&tls=true&country=SG&limit=20"
-    path: ./assets/provider-game-sg.yaml
+    path: ./provide/provider-game-sg.yaml
     interval: 10800
     health-check:
       enable: true
@@ -474,7 +474,7 @@ proxy-providers:
   "provider-game-sg2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=false&vpn=vless&port=443&domain=web.poe.garena.com"
-    path: ./assets/provider-game-sg2.yaml
+    path: ./provide/provider-game-sg2.yaml
     interval: 10800
     health-check:
       enable: true
@@ -484,7 +484,7 @@ proxy-providers:
   "provider-sushiroll-id":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=104.21.69.223&wildcard=false&tls=true&country=ID&limit=20"
-    path: ./assets/provider-sushiroll-id.yaml
+    path: ./provide/provider-sushiroll-id.yaml
     interval: 10800
     health-check:
       enable: true
@@ -494,7 +494,7 @@ proxy-providers:
   "provider-sushiroll-id2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=false&vpn=vless&port=443&domain=104.21.69.223"
-    path: ./assets/provider-sushiroll-id2.yaml
+    path: ./provide/provider-sushiroll-id2.yaml
     interval: 10800
     health-check:
       enable: true
@@ -504,7 +504,7 @@ proxy-providers:
   "provider-sushiroll-sg":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=104.21.69.223&wildcard=false&tls=true&country=SG&limit=20"
-    path: ./assets/provider-sushiroll-sg.yaml
+    path: ./provide/provider-sushiroll-sg.yaml
     interval: 10800
     health-check:
       enable: true
@@ -514,7 +514,7 @@ proxy-providers:
   "provider-sushiroll-sg2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=false&vpn=vless&port=443&domain=104.21.69.223"
-    path: ./assets/provider-sushiroll-sg2.yaml
+    path: ./provide/provider-sushiroll-sg2.yaml
     interval: 10800
     health-check:
       enable: true
@@ -524,7 +524,7 @@ proxy-providers:
   "provider-vidio-id":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=quiz.vidio.com&wildcard=false&tls=true&country=ID&limit=20"
-    path: ./assets/provider-vidio-id.yaml
+    path: ./provide/provider-vidio-id.yaml
     interval: 10800
     health-check:
       enable: true
@@ -534,7 +534,7 @@ proxy-providers:
   "provider-vidio-id2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=false&vpn=vless&port=443&domain=quiz.vidio.com"
-    path: ./assets/provider-vidio-id2.yaml
+    path: ./provide/provider-vidio-id2.yaml
     interval: 10800
     health-check:
       enable: true
@@ -544,7 +544,7 @@ proxy-providers:
   "provider-vidio-sg":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=quiz.vidio.com&wildcard=false&tls=true&country=SG&limit=20"
-    path: ./assets/provider-vidio-sg.yaml
+    path: ./provide/provider-vidio-sg.yaml
     interval: 10800
     health-check:
       enable: true
@@ -554,7 +554,7 @@ proxy-providers:
   "provider-vidio-sg2":
     type: http
     url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=false&vpn=vless&port=443&domain=quiz.vidio.com"
-    path: ./assets/provider-vidio-sg2.yaml
+    path: ./provide/provider-vidio-sg2.yaml
     interval: 10800
     health-check:
       enable: true
@@ -564,7 +564,7 @@ proxy-providers:
   "provider-xuts":
     type: http
     url: "https://violetvpn.biz.id/sub/vless/?type=wildcard&bug=ava.game.naver.com"
-    path: ./assets/provider-xuts.yaml
+    path: ./provide/provider-xuts.yaml
     interval: 10800
     health-check:
       enable: true
@@ -574,7 +574,7 @@ proxy-providers:
   "provider-xuts-id":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=ID&limit=20"
-    path: ./assets/provider-xuts-id.yaml
+    path: ./provide/provider-xuts-id.yaml
     interval: 10800
     health-check:
       enable: true
@@ -584,7 +584,7 @@ proxy-providers:
   "provider-xuts-my":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=MY&limit=20"
-    path: ./assets/provider-xuts-my.yaml
+    path: ./provide/provider-xuts-my.yaml
     interval: 10800
     health-check:
       enable: true
@@ -594,7 +594,7 @@ proxy-providers:
   "provider-xuts-sg":
     type: http
     url: "https://sub.garaaa.biz.id/sub/v2ray?type=vless&bug=ava.game.naver.com&wildcard=true&tls=true&country=SG&limit=20"
-    path: ./assets/provider-xuts-sg.yaml
+    path: ./provide/provider-xuts-sg.yaml
     interval: 10800
     health-check:
       enable: true
@@ -606,28 +606,28 @@ rule-providers:
 #  "adaway":
 #    type: http
 #    behavior: classical
-#    path: "./assets/rule_provider/adaway.yaml"
+#    path: "./provide/rule_provider/adaway.yaml"
 #    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/adaway.yaml
 #    interval: 28800
 
 #  "abpindo":
 #    type: http
 #    behavior: classical
-#    path: "./assets/rule_provider/abpindo.yaml"
+#    path: "./provide/rule_provider/abpindo.yaml"
 #    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/abpindo.yaml
 #    interval: 28800
 
   "adblock":
     type: http
     behavior: classical
-    path: "./assets/rule_provider/adblock.yaml"
+    path: "./provide/rule_provider/adblock.yaml"
     url: https://raw.githubusercontent.com/dratx1/clash/refs/heads/main/adblock.yaml
     interval: 28800
 
   "oisd_big":
     type: http
     behavior: classical
-    path: "./assets/rule_provider/oisd_big.yaml"
+    path: "./provide/rule_provider/oisd_big.yaml"
     url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/oisd_big.yaml
     interval: 28800
 
